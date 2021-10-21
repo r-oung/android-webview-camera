@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
 
         // Initialize WebView
         webview.getSettings().setJavaScriptEnabled(true);
-
         webview.setWebChromeClient(new WebChromeClient() {
             @Override
             public void onPermissionRequest(PermissionRequest request) {
